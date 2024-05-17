@@ -1,0 +1,30 @@
+[33mcommit d4f0fee1519ebf78e77274c28b8786ecfa61a193[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 08e03a7 0225b5d
+Author: OleksandrRudkivskyi <140476274+OleksandrRudkivskyi@users.noreply.github.com>
+Date:   Sun Aug 20 08:37:57 2023 +0300
+
+    Merge branch 'main' of https://github.com/OleksandrRudkivskyi/goit-markup-hw-02
+
+[33mcommit 08e03a7ed8b7a248692e30e619faf92d75e77a26[m
+Author: OleksandrRudkivskyi <140476274+OleksandrRudkivskyi@users.noreply.github.com>
+Date:   Sat Aug 19 18:23:23 2023 +0300
+
+    update 3
+
+[33mcommit 0225b5dff9c9ca1760606aefc6c61d8a0f4cc53d[m
+Author: OleksandrRudkivskyi <140476274+OleksandrRudkivskyi@users.noreply.github.com>
+Date:   Wed Aug 16 07:19:58 2023 +0300
+
+    Update 2
+
+[33mcommit be74adc853951d37c53409e18794154d1b68eafc[m
+Author: OleksandrRudkivskyi <140476274+OleksandrRudkivskyi@users.noreply.github.com>
+Date:   Tue Aug 15 07:09:06 2023 +0300
+
+    Update 1
+
+[33mcommit 5f88319de4787cdcda555756fa277e3f6b0bdcf8[m
+Author: OleksandrRudkivskyi <140476274+OleksandrRudkivskyi@users.noreply.github.com>
+Date:   Thu Aug 10 07:58:21 2023 +0300
+
+    Initial commit
