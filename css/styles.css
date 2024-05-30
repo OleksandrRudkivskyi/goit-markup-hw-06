@@ -161,7 +161,7 @@ img {
 /* ------HERO-IMAGE------ */
 .hero {
   background-color: #2e2f42;
-  padding: 188 0;
+  padding: 188px 0;
 }
 .hero-title {
   font-weight: 700;
@@ -209,15 +209,14 @@ img {
   display: flex;
   gap: 24px;
 }
-.advantages-subtitle-first {
-  width: calc((100% - 72px) / 4);
-}
 .advantages-subtitle {
+  width: calc((100% - 72px) / 4);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .advantages-text {
