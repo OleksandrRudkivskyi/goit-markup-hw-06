@@ -202,12 +202,15 @@ img {
 .advantages {
   padding: 120px 0;
 }
-.advantages-title {
-  margin-bottom: 8px;
-}
+/* .advantages-title { */
+  /* margin-bottom: 8px; */
+/* } */
 .advantages-list {
   display: flex;
   gap: 24px;
+}
+.advantages-list-item {
+  width: calc((100% - 72px) / 4);
 }
 .advantages-subtitle {
   width: calc((100% - 72px) / 4);
