@@ -69,8 +69,8 @@ img {
 /* ------HEADER------ */
 .header {
   border-bottom: 1px solid #E7E9FC;
-  padding-top: 24px;
-  padding-bottom: 32px;
+  /* padding-top: 24px; */
+  /* padding-bottom: 32px; */
 }
 
 .header-container {
@@ -171,6 +171,9 @@ img {
   text-align: center;
   color: #ffffff;
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 48px;
 }
 
 .hero-btn {
@@ -186,6 +189,7 @@ img {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin: 0 auto;
 }
 .hero-btn:hover {
   background-color: #404BBF
@@ -278,7 +282,7 @@ img {
 
 /* ------OUR-PORTFOLIO------ */
 .portfolio {
-  background-color: #F4F4FD;
+  background-color: #ffffff;
   padding-top: 120px;
     padding-bottom: 120px;
 }
