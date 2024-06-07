@@ -69,6 +69,9 @@ img {
 /* ------HEADER------ */
 .header {
   border-bottom: 1px solid #E7E9FC;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.88), 
+  0px 1px 1px rgba(46, 47, 66, 0.16), 
+  0px 1px 6px rgba(46, 47, 66, 0.08);
   /* padding-top: 24px; */
   /* padding-bottom: 32px; */
 }
@@ -162,6 +165,19 @@ img {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
+}
+.hero-container {
+  background-color: rgba(17, 17, 17, 0.6);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)),
+    url(../images/background/people-office-1.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 30px;
+  padding: 380px 40px 40px;
+  width: 1440px;
+    height: 600px;
 }
 .hero-title {
   font-weight: 700;
