@@ -170,7 +170,7 @@ img {
   background-color: rgba(17, 17, 17, 0.6);
   background-image: linear-gradient(rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)),
-    url(../images/background/people-office-1.jpeg);
+    url(../images/background/head-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -231,6 +231,10 @@ img {
 }
 .advantages-list-item {
   width: calc((100% - 72px) / 4);
+}
+.advantages-list-icon {
+  fill: transparent;
+  /* stroke: green; */
 }
 .advantages-subtitle {
   width: calc((100% - 72px) / 4);
@@ -295,7 +299,14 @@ img {
   text-align: center;
   color: #434455;
 }
-
+.social-link {
+  display: block;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  height: 40px;
+  /* background-position: center; */
+  /* align-items: center; */
+}
 /* ------OUR-PORTFOLIO------ */
 .portfolio {
   background-color: #ffffff;
