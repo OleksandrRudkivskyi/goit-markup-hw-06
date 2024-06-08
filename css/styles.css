@@ -299,13 +299,16 @@ img {
   text-align: center;
   color: #434455;
 }
-.social-link {
+.social-list {
   display: block;
   border-radius: 50%;
   background-color: #4d5ae5;
   height: 40px;
   /* background-position: center; */
   /* align-items: center; */
+}
+.social-icon {
+  align-items: center;
 }
 /* ------OUR-PORTFOLIO------ */
 .portfolio {
