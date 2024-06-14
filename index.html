@@ -408,9 +408,16 @@
       </svg>
     </div>
     </div>
-      <input type="email" name="user-email" class="modal-input" placeholder="Enter email"/>
-      <input type="tel" name="user-tel" class="modal-input" placeholder="Enter tel"
-      required/>
+      <input type="email" 
+      name="user-email" 
+      class="modal-input" 
+      placeholder="Enter email"/>
+      <input type="tel" 
+      name="user-tel" 
+      class="modal-input" 
+      placeholder="+380 (96) 111-11-11"
+      required
+      value="+380"/>
       <div class="modal-field">
 <label for="user-comment">Comment</label>
 <textarea 
@@ -420,7 +427,28 @@ class="modal-text"
 placeholder="Enter text"
 ></textarea>
       </div>
-      <button type="submit" class="model-btn" disabled>Send</button>
+
+      <input type="checkbox" name="policy" id="policy" value="true" class="modal-check">
+      <label for="policy" class="modal-checktext"
+      >I accept the terms and conditions</label>
+
+      <!-- <div class="modal-field"> -->
+      <!-- <label for="yes">Yes</label> -->
+      <!-- <input type="radio" id="yes" name="question" value="yes"/> -->
+      <!-- <label for="no">No</label> -->
+      <!-- <input type="radio" id="no" name="question" value="no"/> -->
+    <!-- </div> -->
+
+    <!-- <div class="modal-field"> -->
+      <!-- <label for="one">One</label> -->
+      <!-- <input type="checkbox" id="one" name="option1 value="one"/> -->
+      <!-- <label for="two">Two</label> -->
+      <!-- <input type="checkbox" id="two" name="option2" value="two"/> -->
+      <!-- <label for="three">Three</label> -->
+      <!-- <input type="checkbox" id="three" name="option3" value="three"/> -->
+    <!-- </div> -->
+
+    <button type="submit" class="model-btn" disabled>Send</button>
     </form>
     </div>
   </div>
