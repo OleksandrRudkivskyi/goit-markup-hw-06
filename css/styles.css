@@ -556,15 +556,18 @@ color: #404bbf;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: #e7e9fc;
   width: 24px;
-  width: 24px;
+  height: 24px;
   border-radius: 50%;
   display: flex;
   padding: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  align-items: center;
+  justify-content: center;
 }
 .modal-close:hover {
   background-color: #404bbf;
+  border: none; 
 }
 .modal-close:focus {
   background-color: #404bbf;
@@ -643,6 +646,7 @@ background-color: #1e1823;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
  }
  .modal-icon:focus {
   fill: #4D5AE5;
@@ -693,6 +697,7 @@ background-color: #1e1823;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex; 
   fill: transparent; 
+  display: inline-flex;
 }
  .modal-check:checked + .modal-check-text span {
 background-color: #fd9222;
@@ -702,5 +707,5 @@ fill: #ffffff;
   margin-bottom: 24px; 
  }
  .check-icon {
-  
+
  }
