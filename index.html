@@ -427,11 +427,21 @@ class="modal-text"
 placeholder="Enter text"
 ></textarea>
       </div>
-
-      <input type="checkbox" name="policy" id="policy" value="true" class="modal-check">
-      <label for="policy" class="modal-checktext"
-      >I accept the terms and conditions</label>
-
+<div class="modal-field">
+      <input type="checkbox" 
+      name="policy" id="policy" 
+      value="true" 
+      class="modal-check visually-hidden"
+      />
+      <label for="policy" 
+      class="modal-check-text"> 
+      <span>
+        <svg class="check-icon" width="16" height="16">
+          <use href="./images/icons.svg#icon-Property-1click">
+          </use>
+        </svg>
+      </span>I accept the terms and conditions</label>
+    </div>
       <!-- <div class="modal-field"> -->
       <!-- <label for="yes">Yes</label> -->
       <!-- <input type="radio" id="yes" name="question" value="yes"/> -->
