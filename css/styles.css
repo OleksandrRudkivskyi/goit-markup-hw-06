@@ -700,7 +700,7 @@ background-color: #1e1823;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 12px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -710,11 +710,15 @@ background-color: #1e1823;
   display: inline-flex;
 }
  .modal-check:checked + .modal-check-text span {
-background-color: #fd9222;
-fill: #ffffff;
+background-color: #404bbf;
+border: none;
+fill: #F4F4FD;
  }
  .modal-policy {
   margin-bottom: 24px; 
+ }
+ .modal-check-ref {
+  color: #4d5ae5; 
  }
  
  /* -------FOOTER MODAL--------- */
