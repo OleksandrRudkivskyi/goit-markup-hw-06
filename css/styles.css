@@ -658,7 +658,7 @@ color: #fd9222;
  }
  .modal-icon:hover, 
  .modal-icon:focus {
-  fill: #4D5AE5;
+  /* fill: #4D5AE5; */
   border: none;
  }
 
