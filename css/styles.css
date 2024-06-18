@@ -664,7 +664,7 @@ color: #fd9222;
 
  .modal-input:hover + .modal-icon,
  .modal-input:focus + .modal-icon {
-  fill: #4D5AE5;
+  border-color: #4D5AE5;
  }
 
  .modal-text {
